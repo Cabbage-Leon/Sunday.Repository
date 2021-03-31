@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sunday.Repository", "src\Su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunday.Repository.UnitTest", "src\Sunday.Repository.UnitTest\Sunday.Repository.UnitTest.csproj", "{7B5ECFF5-5449-44FF-A38D-7D6C64F67E97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunday.Repository.Api", "src\Sunday.Repository.Api\Sunday.Repository.Api.csproj", "{A1ED5966-5281-4E2C-A5BC-4D9AEB91631C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,9 +25,16 @@ Global
 		{7B5ECFF5-5449-44FF-A38D-7D6C64F67E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B5ECFF5-5449-44FF-A38D-7D6C64F67E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B5ECFF5-5449-44FF-A38D-7D6C64F67E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1ED5966-5281-4E2C-A5BC-4D9AEB91631C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1ED5966-5281-4E2C-A5BC-4D9AEB91631C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1ED5966-5281-4E2C-A5BC-4D9AEB91631C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1ED5966-5281-4E2C-A5BC-4D9AEB91631C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1ED5966-5281-4E2C-A5BC-4D9AEB91631C} = {6453AE83-84EE-4651-BE4F-62C6F3F09C79}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B1110174-E60F-4DD1-A1F7-9455AE9915E6}
